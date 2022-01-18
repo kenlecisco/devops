@@ -4,5 +4,7 @@
   become: yes
   tasks:
     - name: run-command
-      command: "df -h"
+      command: df -h
+      register: output
+
 
