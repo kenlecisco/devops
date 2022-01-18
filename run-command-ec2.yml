@@ -1,0 +1,8 @@
+---
+- name: run-command-on-ec2
+  hosts: all
+  become: yes
+  tasks:
+    - name: run-command
+      command: "df -h"
+

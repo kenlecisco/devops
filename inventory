@@ -1,0 +1,2 @@
+[linux]
+ec2-instance ansible_host=13.58.108.87 ansible_user=ec2-user ansible_ssh_private_key=/home/thanhtung/workf/ansible/EC2-1-Demo.pem
